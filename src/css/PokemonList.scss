@@ -1,0 +1,19 @@
+.tile {
+	cursor: pointer;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100px;
+	background-color: white;
+	border-radius: 9px;
+	box-shadow: 1px -1px 10px rgba(0,0,0,0.2);
+
+	&:hover {
+		background-color: rgba(33,133,208,0.05);
+	}
+}
+
+.pokemon {
+	font-size: 17px;
+	font-weight: 400;
+}
